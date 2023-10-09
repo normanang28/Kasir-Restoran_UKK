@@ -1,0 +1,83 @@
+ERROR - 2023-09-08 08:14:32 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:14:32 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-08 08:16:42 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:16:42 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-08 08:17:02 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:17:02 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-08 08:17:10 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:17:10 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-08 08:17:17 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:17:17 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-08 08:19:25 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:19:25 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-08 08:19:30 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:19:30 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-08 08:19:39 --> Table 'kasir_restoran.settings' doesn't exist
+CRITICAL - 2023-09-08 08:19:39 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(122): App\Models\M_model->getRow('settings', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->settings_control()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-08 09:23:46 --> syntax error, unexpected 'color' (T_STRING)
+#0 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('menu/view/menu', Array, true)
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(408): view('menu/view/menu')
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-08 09:27:17 --> Column 'nama_menu' cannot be null

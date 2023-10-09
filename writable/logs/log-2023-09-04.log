@@ -1,0 +1,203 @@
+CRITICAL - 2023-09-04 06:40:44 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\menu\view\tes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('menu/view/tes', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(358): view('menu/view/tes')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-04 07:10:49 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\menu\view\tes.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('menu/view/tes', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(358): view('menu/view/tes')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-04 07:15:25 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\menu\view\tes.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('menu/view/tes', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(358): view('menu/view/tes')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-04 07:16:39 --> Cannot redeclare App\Controllers\Home::users()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2023-09-04 08:11:14 --> Duplicate entry '1' for key 'NAMA_MENU'
+ERROR - 2023-09-04 08:11:26 --> Duplicate entry '1' for key 'NAMA_MENU'
+ERROR - 2023-09-04 09:02:51 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-09-04 09:02:51 --> Call to a member function getRow() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(366): App\Models\M_model->getRow('menu', Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-04 21:03:47 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-04 21:09:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(439): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:10:17 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(439): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:12:07 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 346
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(346): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(439): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:14:50 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 346
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(346): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(439): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:14:59 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(439): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:19:38 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(439): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:22:54 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:23:05 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:23:13 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:27:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php on line 344
+#0 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(344): CodeIgniter\Database\BaseBuilder->like('menu.nama_menu', NULL)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', NULL)
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-09-04 21:30:24 --> syntax error, unexpected '$where' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/menu_searc...')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/menu_searc...')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-04 21:30:46 --> syntax error, unexpected '$where' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/menu_searc...')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/menu_searc...')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-04 21:32:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%menu.harga_menu%' ESCAPE '!' 
+ )' at line 6
+CRITICAL - 2023-09-04 21:32:10 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', '1')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-04 21:32:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%menu.harga_menu%' ESCAPE '!' 
+ )' at line 6
+CRITICAL - 2023-09-04 21:32:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', '')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-04 21:32:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%menu.harga_menu%' ESCAPE '!' 
+ )' at line 6
+CRITICAL - 2023-09-04 21:32:24 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', '1')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-04 21:32:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIKE '%menu.harga_menu%' ESCAPE '!' 
+ )' at line 6
+CRITICAL - 2023-09-04 21:32:44 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(443): App\Models\M_model->superLike2('menu', 'user', 'menu.maker_menu...', 'menu.nama_menu', 'menu.harga_menu', 'pizza')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

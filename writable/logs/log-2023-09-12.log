@@ -1,0 +1,302 @@
+ERROR - 2023-09-12 00:55:19 --> Unknown column 'id_user' in 'where clause'
+CRITICAL - 2023-09-12 00:56:48 --> Too few arguments to function App\Models\M_model::hapusKeranjangByIdUser(), 1 passed in C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php on line 1181 and exactly 2 expected
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1181): App\Models\M_model->hapusKeranjangByIdUser('7')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->aksi_add_transaction()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-12 01:00:22 --> Unknown column 'maker_keranjang' in 'field list'
+CRITICAL - 2023-09-12 01:03:09 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/menu')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/menu')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-12 01:13:50 --> Too few arguments to function App\Models\M_model::hapusSemua(), 1 passed in C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php on line 1180 and exactly 2 expected
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1180): App\Models\M_model->hapusSemua('keranjang')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->aksi_add_transaction()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-12 06:18:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-09-12 06:18:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\kasir_restoran\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kasir_restoran\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(279): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(35): App\Models\M_model->getRow('settings_websit...', Array)
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-12 07:10:13 --> Invalid file: laporan/filter.php
+#0 C:\xampp\htdocs\kasir_restoran\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('laporan/filter....')
+#1 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('laporan/filter', Array, true)
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1198): view('laporan/filter', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->income_report()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-12 07:14:40 --> Table 'kasir_restoran.spp' doesn't exist
+CRITICAL - 2023-09-12 07:14:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1212): App\Models\M_model->filter_invoice('spp', '2023-08-01', '2023-09-12')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->cari_income()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-12 07:29:43 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_incom...', Array, true)
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1218): view('laporan/c_incom...', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->cari_income()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-12 07:41:22 --> Class 'Dompdf\Dompdf' not found
+#0 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->pdf_income()
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-12 08:02:47 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/income_rep...')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/income_rep...')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-12 21:52:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-09-12 21:52:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\kasir_restoran\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kasir_restoran\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\kasir_restoran\app\Models\M_model.php(293): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(35): App\Models\M_model->getRow('settings_websit...', Array)
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-09-12 21:59:29 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\laporan\c_income.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_incom...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1225): view('laporan/c_incom...', Array)
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->cari_income()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:00:54 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_incom...', Array, true)
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1225): view('laporan/c_incom...', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->cari_income()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-12 22:03:31 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\laporan\c_income.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('laporan/c_incom...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(1225): view('laporan/c_incom...', Array)
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->cari_income()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:47:19 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:47:50 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:47:56 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:48:18 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:49:27 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:49:37 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 137, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:50:07 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:50:23 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:50:26 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:50:53 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:51:19 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:51:21 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:52:02 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-12 22:55:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\log.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(909): view('log_activity/lo...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_activity()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

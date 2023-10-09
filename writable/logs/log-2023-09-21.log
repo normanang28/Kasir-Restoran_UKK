@@ -1,0 +1,9 @@
+CRITICAL - 2023-09-21 22:37:00 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(54): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

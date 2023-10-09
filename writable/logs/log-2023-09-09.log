@@ -1,0 +1,365 @@
+CRITICAL - 2023-09-09 04:01:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kasir_restoran\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kasir_restoran\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(222): CodeIgniter\Model->__call('fusionOrderBy', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->users()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-09 04:03:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kasir_restoran\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kasir_restoran\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(229): CodeIgniter\Model->__call('countFusionRows', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->users()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-09 04:03:15 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kasir_restoran\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kasir_restoran\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(229): CodeIgniter\Model->__call('countFusionRows', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->users()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-09 04:03:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kasir_restoran\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kasir_restoran\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(222): CodeIgniter\Model->__call('fusionOrderBy', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->users()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-09 04:03:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kasir_restoran\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kasir_restoran\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(229): CodeIgniter\Model->__call('countFusionRows', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->users()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-09 05:39:55 --> Use of undefined constant gas - assumed 'gas' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\menu\view\tes.php(295): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 295, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('menu/view/tes', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(408): view('menu/view/tes')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-09 07:21:31 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_out()
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-09 07:22:35 --> Call to a member function simpan() on null
+#0 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_out()
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-09 07:38:54 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/employee_a...')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/employee_a...')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 07:46:35 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/employee_a...')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/employee_a...')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 07:47:32 --> Cannot redeclare App\Controllers\Home::log_activity()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-09-09 07:50:11 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(852): view('log_activity/lo...')
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->employee_activity()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-09 07:51:15 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/lo...', Array, true)
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(852): view('log_activity/lo...')
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->employee_activity()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2023-09-09 07:55:35 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2023-09-09 07:55:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(846): App\Models\M_model->log('log_activity', 'user', 'log_activity.id...', Array, 'tanggal_activit...')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->employee_activity()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 07:56:26 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2023-09-09 07:56:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(839): App\Models\M_model->log('log_activity', 'user', 'log_activity.id...', Array, 'tanggal_activit...')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->employee_activity()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 09:05:49 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-09-09 09:06:39 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2023-09-09 09:07:52 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:07:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'admin')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 09:08:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\employee_activity.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/em...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(882): view('log_activity/em...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-09-09 09:08:29 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:08:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Cashier 01\t')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 09:08:37 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:08:37 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Cashier 01\t')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 09:10:05 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:10:05 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Cashier 01\t')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 09:10:07 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:10:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Cashier 01\t')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 09:10:07 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:10:07 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Cashier 01\t')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 09:10:08 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:10:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Cashier 01\t')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 09:10:27 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:10:27 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Cashier 01\t')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2023-09-09 09:14:43 --> Unknown column 'log_activity.username' in 'where clause'
+CRITICAL - 2023-09-09 09:14:43 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(870): App\Models\M_model->search_log('log_activity', 'user', 'log_activity.id...', 'log_activity.us...', 'Manager')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 09:17:53 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\employee_activity.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/em...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(883): view('log_activity/em...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-09 09:18:06 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\kasir_restoran\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\kasir_restoran\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(875): CodeIgniter\Model->__call('getLogData', Array)
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-09-09 09:18:15 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\employee_activity.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/em...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(883): view('log_activity/em...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-09 09:18:35 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\employee_activity.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/em...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(883): view('log_activity/em...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-09 09:18:40 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\employee_activity.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/em...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(883): view('log_activity/em...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-09 09:18:49 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\employee_activity.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/em...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(883): view('log_activity/em...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-09-09 09:18:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\kasir_restoran\app\Views\log_activity\employee_activity.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\kasir_restoran\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kasir_restoran\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('log_activity/em...', Array, true)
+#4 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(883): view('log_activity/em...')
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#6 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2023-09-09 09:30:11 --> Unknown column 'menu.activity' in 'where clause'
+CRITICAL - 2023-09-09 09:30:11 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(871): App\Models\M_model->superLike2('log_activity', 'user', 'log_activity.id...', 'user.username', 'menu.activity', 'login')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->log_search()
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 09:39:11 --> syntax error, unexpected '"('assets/images/settings_web/' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/menu')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/menu')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 09:46:35 --> syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/menu')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/menu')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 09:46:54 --> syntax error, unexpected '""' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\kasir_restoran\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/menu')
+#1 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/menu')
+#2 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-09-09 10:56:06 --> Invalid file: menu/view/a.php
+#0 C:\xampp\htdocs\kasir_restoran\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu/view/a.php')
+#1 C:\xampp\htdocs\kasir_restoran\system\Common.php(1089): CodeIgniter\View\View->render('menu/view/a', Array, true)
+#2 C:\xampp\htdocs\kasir_restoran\app\Controllers\Home.php(463): view('menu/view/a')
+#3 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(832): App\Controllers\Home->menu()
+#4 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\kasir_restoran\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kasir_restoran\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kasir_restoran\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
